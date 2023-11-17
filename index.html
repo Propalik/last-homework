@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Callium - продажа дизайнерской мебели" />
+    <title>App</title>
+    <link rel="preload" href="src/fonts/open-sans.woff2" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="src/fonts/playfair-display.woff2" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="src/fonts/playfair-display-bold.woff2" as="font" crossorigin="anonymous" />
+    <link rel="stylesheet" href="src/css/normalize.css" />
+    <link rel="stylesheet" href="src/css/swiper.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+
+  <body>
+    <header class="page-header">
+      <div class="page-header__wrapper container">
+        <div class="page-header__logo">
+          <img src="src/img/logo.svg" width="20" height="20" alt="Логотип Callium" />
+        </div>
+        <nav class="site-nav site-nav--closed site-nav--no-js page-header__site-nav">
+          <ul class="site-nav__list">
+            <li class="site-nav__item"><a href="#">Мебель</a></li>
+            <li class="site-nav__item"><a href="#">Освещение</a></li>
+            <li class="site-nav__item"><a href="#">Текстиль</a></li>
+          </ul>
+          <button class="site-nav__button" type="button" aria-label="Показать/Скрыть меню"></button>
+        </nav>
+        <ul class="user-nav page-header__user-nav">
+          <li class="user-nav__item user-nav__item--search">
+            <a href="#" aria-label="Поиск по сайту"><span class="visually-hidden">Поиск по сайту</span></a>
+          </li>
+          <li class="user-nav__item user-nav__item--cart">
+            <a href="#" aria-label="Корзина"><span class="visually-hidden">Корзина</span></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="page-main">
+      <h1>Дизайнерская мебель "Callium"</h1>
+      <section class="main-screen container">
+        <div class="swiper-container main-screen__slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="product product--slider">
+                <div class="product__info">
+                  <h2>Дизайнерская мебель</h2>
+                  <h3>Кресло "Антиква"</h3>
+                  <p><span>$380</span>$240</p>
+                  <button class="product__button" type="button">Купить</button>
+                </div>
+                <div class="product__image">
+                  <img
+                    src="src/img/main-chair-desktop.jpg"
+                    srcset="img/main-chair-desktop@2x.jpg 2x"
+                    width="532"
+                    height="751"
+                    alt="Кресло Антиква"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product product--slider">
+                <div class="product__info">
+                  <h2>Дизайнерская мебель</h2>
+                  <h3>Кресло "Антиква"</h3>
+                  <p><span>$380</span>$240</p>
+                  <button class="product__button" type="button">Купить</button>
+                </div>
+                <div class="product__image">
+                  <img
+                    src="src/img/main-chair-desktop.jpg"
+                    srcset="img/main-chair-desktop@2x.jpg 2x"
+                    width="532"
+                    height="751"
+                    alt="Кресло Антиква"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product product--slider">
+                <div class="product__info">
+                  <h2>Дизайнерская мебель</h2>
+                  <h3>Кресло "Антиква"</h3>
+                  <p><span>$380</span>$240</p>
+                  <button class="product__button" type="button">Купить</button>
+                </div>
+                <div class="product__image">
+                  <img
+                    src="src/img/main-chair-desktop.jpg"
+                    srcset="img/main-chair-desktop@2x.jpg 2x"
+                    width="532"
+                    height="751"
+                    alt="Кресло Антиква"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product product--slider">
+                <div class="product__info">
+                  <h2>Дизайнерская мебель</h2>
+                  <h3>Кресло "Антиква"</h3>
+                  <p><span>$380</span>$240</p>
+                  <button class="product__button" type="button">Купить</button>
+                </div>
+                <div class="product__image">
+                  <img
+                    src="src/img/main-chair-desktop.jpg"
+                    srcset="img/main-chair-desktop@2x.jpg 2x"
+                    width="532"
+                    height="751"
+                    alt="Кресло Антиква"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-scrollbar main-screen__slider-scrollbar"></div>
+          <div class="swiper-pagination main-screen__slider-pagination"></div>
+        </div>
+      </section>
+
+      <section class="main-screen_second container">
+        <h1>Новинки</h1>
+        <div class="content-box_left">
+          <div class="box1 box">
+            <p class="box1_text">Новинки</p>
+            <div class="Rectangle1">
+              <img src="src/img/Rectangle 2.svg" alt="" />
+            </div>
+          </div>
+          <div class="box2 box">
+            <div class="text-container">
+              <img src="src/img/chair-twilight-desktop.jpg" />
+              <h3>Кресло "Антиква"</h3>
+              <p><span>$380</span></p>
+            </div>
+          </div>
+          <div class="box3 box">
+            <div class="text-container">
+              <img src="src/img/chandelier-desktop.jpg" />
+              <h3>Люстра "Антиква"</h3>
+              <p><span>$380</span></p>
+            </div>
+          </div>
+          <div class="box4 box">
+            <div class="text-container">
+              <img src="src/img/table-cream-desktop.png" />
+              <h3>Стол "Антиква"</h3>
+              <p><span>$380</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="content-box_right">
+          <div class="box_Big">
+            <div class="text-container_big">
+              <img src="src/img/chair-white-desktop.jpg" />
+              <h3>Кресло "Антиква"</h3>
+              <p><span>$380</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dynamic">
+        <div class="container">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="dynamic-content">
+                <img src="src/img/avatar.jpg" alt="User Avatar" class="dynamic-img" />
+                <div class="dynamic-text">
+                  <h2>Елена Новикова <span>студентка</span></h2>
+                  <p>
+                    «Хочу поделиться своими впечатлениями по использованию дивана «Бродвей», заказывала в конце 2016
+                    года. Держится великолепно. Спасибо, большое сотрудникам этого чудесного магазина.»
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="last_chance container">
+        <div class="content">
+          <div class="last-title">
+            <h2>Последний шанс</h2>
+            <img src="src/img/Rectangle 2.svg" alt="" />
+          </div>
+          <nav class="navigation">
+            <ul class="last-nav__list">
+              <li class="last-nav__item"><a href="#">Стулья</a></li>
+              <li class="last-nav__item"><a>Диваны</a></li>
+              <li class="last-nav__item"><a>Кресла</a></li>
+            </ul>
+          </nav>
+          <div class="flex-box">
+            <div class="card-wraper">
+              <div class="Rectangle27">
+                <img src="src/img/Rectangle 27.jpg" />
+              </div>
+              <div class="card-title">
+                <h3>Стул «Карамель»</h3>
+                <p><span>$195</span>$245</p>
+              </div>
+              <div class="card-img">
+                <img src="src/img/chair-caramel-desktop.png" />
+              </div>
+              <button class="product__button" type="button">Купить</button>
+            </div>
+            <div class="card-wraper">
+              <div class="Rectangle27">
+                <img src="src/img/Rectangle 27.jpg" />
+              </div>
+              <div class="card-title">
+                <h3>Стул «Облако»</h3>
+                <p><span>$200</span>$250</p>
+              </div>
+              <div class="card-img">
+                <img src="src/img/chair-cloud-desktop.jpg" />
+              </div>
+              <button class="product__button" type="button">Купить</button>
+            </div>
+            <div class="card-wraper">
+              <div class="Rectangle27">
+                <img src="src/img/Rectangle 27.jpg" />
+              </div>
+              <div class="card-title">
+                <h3>Стул «Сова»</h3>
+                <p><span>$240</span>$260</p>
+              </div>
+              <div class="card-img">
+                <img src="src/img/chair-owl-desktop.png" />
+              </div>
+              <button class="product__button" type="button">Купить</button>
+            </div>
+            <div class="card-wraper">
+              <div class="Rectangle27">
+                <img src="src/img/Rectangle 27.jpg" />
+              </div>
+
+              <div class="card-title">
+                <h3>Стул «Мая»</h3>
+                <p><span>$280</span>$330</p>
+              </div>
+              <div class="card-img">
+                <img src="src/img/chair-maya-desktop.jpg" />
+              </div>
+              <button class="product__button" type="button">Купить</button>
+            </div>
+            <div class="card-wraper">
+              <div class="Rectangle27">
+                <img src="src/img/Rectangle 27.jpg" />
+              </div>
+              <div class="card-title">
+                <h3>Стул «Месси»</h3>
+                <p><span>$280</span>$305</p>
+              </div>
+              <div class="card-img">
+                <img src="src/img/chair-messi-desktop.png" />
+              </div>
+              <button class="product__button" type="button">Купить</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <div class="page-footer__wraper container">
+        <div class="page-footer__logo">
+          <img src="src/img/logo.svg" width="20" height="20" alt="Логотип Callium" />
+        </div>
+        <nav class="page-footer__site-nav">
+          <ul class="footer-nav__list">
+            <li class="footer-nav__item"><a href="#">Доставка</a></li>
+            <li class="footer-nav__item"><a href="#">Оплата</a></li>
+            <li class="footer-nav__item"><a href="#">Контакты</a></li>
+            <li class="footer-nav__item"><a href="#">Гарантии</a></li>
+          </ul>
+          <button class="site-nav__button" type="button" aria-label="Показать/Скрыть меню"></button>
+        </nav>
+      </div>
+
+      <div class="contact container">
+        <div class="number">
+          <a class="icon-number" href="#" target="_blank">
+            <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <rect opacity="0.7" x="4.47327" width="15.0673" height="15.0673" transform="rotate(17.2706 4.47327 0)" fill="url(#pattern0)"/>
+              <defs>
+              <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+              <use xlink:href="#image0" transform="scale(0.0192308)"/>
+              </pattern>
+              <image id="image0" width="52" height="52" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAK5SURBVGhD1dpLyExhHMfx111uoSwsUDbIJTsWNsglJJGFImwsrNwpykJSspANC2WlJLlsbGTFwmXnVixEbNxC7nL7/hZT0+l3Zs5jnpn5z68+q/edOf9nzpznOn0JGYB1OIm9GIeezXjcxN86rzAPPZfpeIb6xtR8xgz0TJbgA1xjah5hGMJnJX7BNaLoNEJnDr7AFe/8wXyEzCi8gCu8kScYgnA5AVdwFdsRKhPwA67YKt5iNMLkCFyhKXYjRPqhbLxJcQshMgWuwFT6yobIJrgCU2nsCpFDcAWmCvOV0yzaFZhqFULkHFyBKQ4jTM7AFVnFb+xCqByDK7aZ91iNcNkJV3Aj9zEJIbMArugyGm/CNkYZgarrH7mI8LkLV7xzHOGjiaUr3rmA8NHyQV2wa0CRlgqDET7X4RrgrEf4LIYr3nmOntjxSekcDiJ8NMF0xTvaHdJaKnyuwTXAeQiNY6EzFT/hGuCch5bxoXMUrvgy4WbcxQyFJqCueEdTpzUInVn4DtcAR5PW5fjfjMVabIa2pPsje3bAFV/mGxYiJTpQ24fih/cUG5H1+dSbaXZdf6Fm1J0vRZVocL4E9z41+nvWXdnhuAd3sTJ6pvaj0aerIm/Dvb5Id2s2smUyXsNdrJHL0LFmMWNwB+41ZT5hGbJF50ApnUTNV5zCCszFNryE+99mdOezToxTTvfaRddXT5gtejOd3LmLdYrWbouQLerOu90odRSDkC1b0e1GZT/f3YBuPlOtzExKo97rI9wF20l7GyPRlkzDY7gLt4PmjVk7BReN/BpIXQE56dvQ9sbUR8/VO7hiWqUBWauAjkfTnbOoutdXhaZKE9HVzMQVtNK9a+q0BwMRJtqn0Fmu9vNc0c4b6OxKu7pho1Wofme3Bfol11XosPkBbkD75gegRWKoO9Lh9PX9A6H/Z9buQXKYAAAAAElFTkSuQmCC"/>
+              </defs>
+              </svg>
+</a>
+<p> +7(495) 205-28-14</p>
+        </div>
+        
+        <div class="email">
+          <a class="icon-email" href="#">
+            <svg width="15" height="17" viewBox="0 0 15 17" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <rect opacity="0.7" width="15" height="17" fill="url(#pattern0)"/>
+              <defs>
+              <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+              <use xlink:href="#image0_1_76" transform="matrix(0.0118056 0 0 0.0104167 -0.0666667 0)"/>
+              </pattern>
+              <image id="image0_1_76" width="96" height="96" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAObSURBVHhe7ZxJihRBGIULFd3ozpXDzpUKjsdQ9CCi3kJEESc8heNGQTyA007dq30CB9yo6HsUCUn2y46I/COzqrreBx8U3VUvIn6663U32TkzxhhjjDHGGGOMMcYYY4wRHIV34Sf4E/5bczkDzoIz4WxGYw+8A/9CtRE7nw1nxFlVZTd8AdWidrPPIWdWjZtQLWT7vQGrcAT+gWoR2y9nxtmFuQ7VAjbtNRjmDVThNi1nF+Yi3IBqAdsvZ8bZVWEfvA3dBWk5I86KM6vOWfgeqoXtfDac0ajsglfhD6g2sY5yFpwJZzMZh+EzqDa0TnIGnMXCWNeSrlqyUdappEct2SjbvaQnKdkuT+Gh+cMsWERX4HYqaZ6FZyopWc6MswvT3sBOfiATFhM30D3MqskzlJQsZ9T+AgzT3gy/Bc/AEla1pIeULGfTfQsO0w6jvyFLaC/MZZVKekjJchZ8DWfTzQvTDWz8Ci/AEtRXyDI55DucM+AsVB4No0LbPoGrXtJDS5ZnV3ltw6jQrt/hZbiKJT2kZHlWnlnldQ2jQvt8B0/DEhZV0kNKlmfjGVVen2FU6FayiG7BkpJuSmyKkm5KtnR/PJMq2ZRhVGiOLKbzsISxS3pIyfIMW5VsyjAqtMTH8CDMZYySHlKy3DP3rvJKDKNCS21KegfMpVZJl5Ys91hSsinDqNChssBOwRL4c/aQkuZrSn9P4d5KSzZlGBUaceySnrpkU4ZRoTX8AmuX9NCS5V5UXg3DqNCaPoLRkh5asly7vZcxDKNCa/sNlpZ08/d2WvKnkKZkuabaS23DqNCxfAtPwrFgNtdQa49lGBU6pixCXo1dUqIpmMXMMUo2ZRgVOoWf4TkYhRnMUmtMYRgVOqUP4QFYCl/D16rMKQ2jQqeWhXkJ5pQ0n8PnTlWyKcOo0EXJAj0B++Dnpi7ZlGFU6CJtSno/bODjRZVsyjAqdBn8BV9D/hMEH6vnLINhVKjNN4wKtfmGUaE23zAq1OYbRoXafMOoUJtvGBVq8w2jQm2+YVSozTeMCrX5hlGhNt8wKtTmG0aF2nzDqFCbbxgVavMNo0JtvmFqXSW8jnJ2YT5CFW7TfoBheKWxCrdpecV1mOPQd8stl5fJH4NVeADVIrZf3ku6GrwN7yuoFrKbfQmr3rqYMPA+9NtRv3zbuQerD78Nb9HOcmHD+0fU+Qw4C85k1NvXG2OMMcYYY4wxxhhjjDFmFZnN/gNLujgC5tK6TQAAAABJRU5ErkJggg=="/>
+              </defs>
+              </svg>
+            </a>
+<p>callium@gmail.com</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="src/js/vendor/swiper.js"></script>
+    <script src="src/js/lib/slider-main.js"></script>
+  </body>
+</html>
